@@ -29,3 +29,6 @@ The script begins by importing the `mysql.connector` module, which provides the 
 ```python
 if __name__ == "__main__":
     main()
+```
+
+### Requirements
