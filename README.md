@@ -44,16 +44,19 @@ mysql -u root -p
 ```
 
 - Create a new user:
-```sql
+```bash
 CREATE USER 'sqluser'@'%' IDENTIFIED WITH mysql_native_password BY 'password' ;
 ```
 
 - A new user is created by the name ‘sqluser’ with password ‘password’. Provide this user with all the privileges :
-```sql
+```bash
 GRANT ALL PRIVILEGES ON *.* TO 'sqluser'@'%' ;
 ```
 
 - We need to validate these privileges :
-```sql
+```bash
 FLUSH PRIVILEGES;
 ```
+
+### Encountering issues, or errors?
+- Visit: https://bit.ly/sql-help
