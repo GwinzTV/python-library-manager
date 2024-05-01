@@ -1,0 +1,3 @@
+Todo tasks:
+ - integrate with MySQL local database to manage the libraries database.
+    - create tables, add queries, ...etc.
