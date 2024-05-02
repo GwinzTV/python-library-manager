@@ -7,7 +7,7 @@ The script begins by importing the `mysql.connector` module, which provides the 
 
 ### Connection Setup Functions
 - `connect()`: Establishes a connection to the MySQL database using the provided host, username, password, and database name.
-- `create_table()`: Creates a table named `books` in the database if it doesn't already exist. This table consists of columns for book `id`, `title`, and `author`.
+- `create_table()`: Creates a table named `books` in the database if it doesn't already exist. This table contains columns for book `id`, `title`, and `author`.
 
 ### CRUD Operations
 - `insert_book(title, author)`: Inserts a new book record into the `books` table with the provided title and author.
@@ -18,10 +18,10 @@ The script begins by importing the `mysql.connector` module, which provides the 
 ### Main Function
 - `main()`: Demonstrates the usage of the CRUD operations.
   - Calls `create_table()` to ensure the table exists.
-  - Inserts three sample books into the database.
+  - Insert three sample books into the database.
   - Retrieves all books and prints them.
   - Updates the title and author of a book.
-  - Prints all books after the update.
+  - Print all books after the update.
   - Deletes a book record.
   - Prints all books after the deletion.
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
  pip install mysql-connector-python
  ```
 - Now, to connect to the server, type the following command:
-  - Here -u means that you’ve to provide the username that is ‘root’ and -p means you have give the password.
+  - Here -u means that you’ve to provide the username that is ‘root’ and -p means you have to give the password.
 ```bash
 mysql -u root -p
 ```
